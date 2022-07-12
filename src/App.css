@@ -1,0 +1,65 @@
+*{
+  background-color: rgb(106, 230, 241);
+}
+#maindiv {
+  background-color: rgb(254, 105, 105);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: x-large;
+  margin: 100px 500px;
+  padding-top: 150px;
+  padding-bottom: 200px;;
+  border-radius: 20px;
+}
+#canvas{
+  background-color: rgb(127, 250, 146);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px 500px;
+  padding-bottom: 150px;
+  font-size: x-large;
+  border-radius: 20px;
+}
+
+h1,p,button{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(127, 250, 146);
+}
+/* #mainbutton{
+  background-color: rgb(254, 105, 105);
+} */
+button{
+  color: white;
+  background: black;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: medium;
+}
+button:hover{
+  font-size: large;
+}
+#bold{
+  font-weight: bold;
+  background-color: rgb(254, 105, 105);
+}
+input{
+  background-color: white;
+  border-radius: 5px;
+  font-size: medium;
+}
+input:hover{
+  font-size: large;
+}
+#temp{
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
